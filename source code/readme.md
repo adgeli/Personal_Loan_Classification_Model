@@ -17,20 +17,28 @@
 
 ## Project Objectives 
 
-The following project sets to analise and build a model with the objective of predicting the target feature Personal Loan from the dataset [Bank Personal Loan Modeling](resources/Bank_Personal_Loan_Modelling.csv).  Data for the project can be found the [Kaggle](https://www.kaggle.com/itsmesunil/bank-loan-modelling) web site.
+The following project sets to analise and build a model with the objective of predicting the target feature Personal Loan from the dataset [Bank Personal Loan Modeling](resources/Bank_Personal_Loan_Modelling.csv). By fitting a Logistic Regression model, Random Forest model, and XGBoost gradient boosting model, the goal is to create a predictive model. Additionally, the project will compare the results of the three machine learning models through a set of evaluation metrics to measure model performance. Data for the project can be found the [Kaggle](https://www.kaggle.com/itsmesunil/bank-loan-modelling) web site.
+
+![obj_readme.JPG](images/obj_readme.JPG)
 
 ### Data Preperation 
 
 First part of the poject conducts an analysis and cleaning of the data in preperation for input into the models.  Data is spit, scaled and oversampling algorithms, Naïve Random Over Sampling (ROS) and Synthetic Minority Oversampling Technique (SMOTE) are applied. After the datasets are prepared, they are exported to be imported into the model notebooks.  Details can be found in the [Data Prep](data_prep.ipynb)
 
+![data_readme.JPG](images/data_readme.JPG)
+
 ### Model Analysis 
 
-In the model analysis section of the project, three models are invesigated to predict Personal Loan and determine feature importance.  Seperate notebooks for each model are prepared for each model investigate.  Machine Learning models analised are  [Linear Regression](logistical_regression.ipynb), [Random Forest](random_forest.ipynb) and [XGBoost](xgboost.ipynb).  After the models have been fitted and compiled, each are export to be upload to the dashboard for findings and analsis presentation.
+In the model analysis section of the project, the three models are invesigated to predict Personal Loan and determine feature importance.  Seperate notebooks for each model are prepared for each model investigate.  Machine Learning models analised are  [Linear Regression](logistical_regression.ipynb), [Random Forest](random_forest.ipynb) and [XGBoost](xgboost.ipynb).  After the models have been fitted and compiled, each are export to be upload to the dashboard for findings and analsis presentation.
 
+
+![model_readme.JPG](images/model_readme.JPG)
 
 ### Project Dashboard
 
 The final deliverable summarizes the analysis and findings presented in the Data Preperation and each notebook of the Model Analysis [Summary of Findings](Summary_of_Findings.md).  The full project is detail in a [Dash Board](thera_bank_dashboard.ipynb) as final presentation to the client.
+
+![dash_readme.JPG](images/dash_readme.JPG)
 
 ---
 
