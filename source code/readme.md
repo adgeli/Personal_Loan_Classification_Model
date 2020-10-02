@@ -21,7 +21,7 @@ The following project sets to analise and build a model with the objective of pr
 
 ![obj_readme.JPG](images/obj_readme.JPG)
 
-### Data Preperation 
+### Data Preparation 
 
 First part of the poject conducts an analysis and cleaning of the data in preperation for input into the models.  Data is spit, scaled and oversampling algorithms, Naïve Random Over Sampling (ROS) and Synthetic Minority Oversampling Technique (SMOTE) are applied. After the datasets are prepared, they are exported to be imported into the model notebooks.  Details can be found in the [Data Prep](data_prep.ipynb)
 
@@ -29,14 +29,15 @@ First part of the poject conducts an analysis and cleaning of the data in preper
 
 ### Model Analysis 
 
-In the model analysis section of the project, the three models are invesigated to predict Personal Loan and determine feature importance.  Seperate notebooks for each model are prepared for each model investigate.  Machine Learning models analised are  [Linear Regression](logistical_regression.ipynb), [Random Forest](random_forest.ipynb) and [XGBoost](xgboost.ipynb).  After the models have been fitted and compiled, each are export to be upload to the dashboard for findings and analsis presentation.
-
+In the model analysis section of the project, the three models are invesigated to predict Personal Loan and determine feature importance.  Seperate notebooks for each model are prepared for each model investigate.  Machine Learning models analysed are [Linear Regression](logistical_regression.ipynb), [Random Forest](random_forest.ipynb) and [XGBoost](xgboost.ipynb).  After the models have been fitted and compiled, each are export to be upload to the dashboard for findings and analsis presentation.
 
 ![model_readme.JPG](images/model_readme.JPG)
 
 ### Project Dashboard
 
-The final deliverable summarizes the analysis and findings presented in the Data Preperation and each notebook of the Model Analysis [Summary of Findings](Summary_of_Findings.md).  The full project is detail in a [Dash Board](thera_bank_dashboard.ipynb) as final presentation to the client.
+The final deliverable summarizes the analysis and findings presented in the data preperation and each of the model analysis notebooks. Of the three models selected to analyse, the model chosen was the XGBoost using the Random Oversample data.  Details on why this model was selected can be found in the  [Summary of Findings](Summary_of_Findings.md) file.  The full project is detail in a [Dash Board](thera_bank_dashboard.ipynb) as final presentation to the client.
+
+
 
 ![dash_readme.JPG](images/dash_readme.JPG)
 
