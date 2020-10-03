@@ -17,7 +17,7 @@
 
 ## Project Objectives 
 
-The following project sets to analise and build a model with the objective of predicting the target feature Personal Loan from the dataset [Bank Personal Loan Modeling](resources/Bank_Personal_Loan_Modelling.csv). By fitting a Logistic Regression model, Random Forest model, and XGBoost gradient boosting model, the goal is to create a predictive model. Additionally, the project will compare the results of the three machine learning models through a set of evaluation metrics to measure model performance. Data for the project obtained from [Kaggle](https://www.kaggle.com/itsmesunil/bank-loan-modelling) web site.  Project client presention can be found at [Presentation](https://docs.google.com/presentation/d/1N5HOKt-uyLLUkpeimOF0ZEk_Jug90DNzwXK89CogXWE/edit?usp=sharing)
+The following project sets to analise and build a model with the objective of predicting the target feature Personal Loan from the dataset [Bank Personal Loan Modeling](resources/Bank_Personal_Loan_Modelling.csv). By fitting a Logistic Regression model, Random Forest model, and XGBoost gradient boosting model, the goal is to create a predictive model. Additionally, the project will compare the results of the three machine learning models through a set of evaluation metrics to measure model performance. Data for the project obtained from [Kaggle](https://www.kaggle.com/com/itsmesunil/bank-loan-modelling) web site.  Project client presentation can be found at the following link [Presentation](https://docs.google.com/presentation/d/1N5HOKt-uyLLUkpeimOF0ZEk_Jug90DNzwXK89CogXWE/edit?usp=sharing)
 
 ![obj_readme.JPG](images/obj_readme.JPG)
 
