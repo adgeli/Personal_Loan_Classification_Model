@@ -6,6 +6,12 @@
 
 ---
 
+## Project Background
+
+The purpose of the models is to provide optimized predictions regarding a Thera Bank account holder's likelihood of taking out a personal loan. In the original dataset, the promotion campaign Thera Bank employed to increase the amount of customers with a personal loan indicated many account holders were liability customers (i.e. dispositors). The goal of the campaign is to increase the amount of asset customers (i.e. borrowers). Therefore, our model places greater emphasis on recall, as there is a significantly lower percentage of asset customers in relation to liability customers.
+
+---
+
 ## Sections
 
 - [Model Analysis & Evaluation Metrics](#Model-Analysis-&-Evaluation-Metrics)
