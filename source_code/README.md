@@ -61,7 +61,7 @@ pip install statsmodels
 ```
 ## Resources and Troubleshooting
 
-If any issues occur during install the above libraries, links to installation and troubleshooting guides are provided below
+A technical issue was found when importing the model into the dashboard when running on different systems.  To resolve issue, rerun the model notebooks to re-generate the models and then run the dashboard.  If any issues occur during installation of the above libraries, links to installation and troubleshooting guides are provided below
 
 
 [xgboost](https://xgboost.readthedocs.io/en/latest/build.html)    
